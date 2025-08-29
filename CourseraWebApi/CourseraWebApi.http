@@ -1,0 +1,6 @@
+@CourseraWebApi_HostAddress = http://localhost:5189
+
+GET {{CourseraWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
