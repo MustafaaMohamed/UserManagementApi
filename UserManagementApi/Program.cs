@@ -220,6 +220,7 @@ namespace UserManagementApi
 					return Results.Problem($"Unexpected error: {ex.Message}");
 				}
 			});
+
 			app.Run();
         }
 	}
